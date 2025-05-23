@@ -20,5 +20,5 @@ end;
 --[[
     Usage:
     local Class = class{size=nil,__constructor=function(self,size)self.size=size;end,__class_name="Example"};
-	local newObject = Class(1);
+    local newObject = Class(1);
 ]]
