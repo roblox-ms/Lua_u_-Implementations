@@ -7,8 +7,8 @@ local __class_meta__ = {
             return l_cloned;
         end;
         if (select('#', ...) ~= 0) then
-			l_cloned:__constructor(...);
-		end;
+	    l_cloned:__constructor(...);
+	end;
         return l_cloned;
     end,
 };
